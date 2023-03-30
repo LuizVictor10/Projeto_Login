@@ -2,8 +2,6 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 100vw;
-  height: 100vh;
 }
 
 body, html{background-color: #5F2C82;
@@ -15,12 +13,75 @@ main{width: 100vw;
     height: 100vh;
     position: relative;}
 
-#login{width: 300px;
-        height: 300px;
+#login{width: 250px;
+        height: 570px;
         background-color: white;
         position: absolute; top: 50%;
         left: 50%;
-        transform: translate(-50% -50%);
-
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
 }
+
+
+#formulario{display: block;}
+
+#formulario>h1{text-align: center;
+                margin: 10px;}
+
+#formulario>p{font-size: 0.8em;
+              text-align: justify;
+              margin: 5px;
+              
+}
+
+#img{background-image: url('../Imagens/metal.jpg');
+      height: 220px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left bottom;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      display: block;
+    }
+
+#email{margin: 10px 5px;
+      width: 230px;
+      border: none;
+      border-radius: 20px;
+    background-color: #85C1CD;
+  padding: 10px;}
+
+#senha{margin: 10px 5px;
+        width: 230px;
+        border: none;
+        border-radius: 20px;
+       background-color: #85C1CD;
+       padding: 10px;
+      }
+
+#entrar{margin: 10px 20px;
+        width: 200px;
+        border: 1px solid #4D9099;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+        color: white;
+        background-color: #85C1CD ;
+        font-size: 1em;
+        
+      }
+
+#renovar{margin: 10px 20px;
+        width: 200px;
+        border: 1px solid #4D9099 ;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+        background-color: white;
+        color: #4D9099;
+        font-size: 1em;
+        }
+
+#renovar:hover{background-color: #85C1CD ;
+              }
 

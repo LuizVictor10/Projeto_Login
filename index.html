@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="medias/geral.css">
+    <link rel="stylesheet" href="medias/devices.css">
 </head>
 <body>
-    <main id="login">
-        <section>
+    <main>
+        <section id="login">
             <div id="img">
 
             </div>
@@ -17,6 +18,21 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="form.php" method="post">
+                    <p><label for="email"></label></p>
+                    <input type="text" required maxlength="30" minlength="5" placeholder="Seu e-mail:" id="email" name="email">
+                    <p><label for="senha"></label></p>
+                    <input type="password" required min="8" max="15" placeholder="Sua senha:" id="senha" name="senha">
+
+                    
+                        <p><input type="submit" value="Entrar" id="entrar"></p>
+                        <input type="reset" value="Esqueci a senha " id="renovar">
+                   
+
+
+
+
+                </form>
             </div>
         </section>
     </main>

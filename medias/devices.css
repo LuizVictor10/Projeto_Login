@@ -1,0 +1,32 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+
+body{background-image: linear-gradient(to bottom, #5F2C82, #4D9099);}
+
+#login{width: 80vw;}
+
+#img{float: left;
+    width: 40%;
+    height:100%;
+    border-top-right-radius: 0px;}
+
+#formulario{float: right;
+            width: 60%;
+            height: 100%;}
+}
+
+@media screen and (min-width:992px)  {
+    
+body{background-image: linear-gradient(to bottom, #5F2C82, #4D9099);}
+
+#login{width: 70vw;}
+
+#img{float: right;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 0px;}
+
+#formulario{float: left;
+            width: 50%;
+            height: 100%;
+            }
+}
