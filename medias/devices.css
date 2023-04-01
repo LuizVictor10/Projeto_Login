@@ -2,7 +2,8 @@
 
 body{background-image: linear-gradient(to bottom, #5F2C82, #4D9099);}
 
-#login{width: 80vw;}
+#login{width: 80vw;
+        height: 380px;}
 
 #img{float: left;
     width: 40%;
@@ -14,11 +15,14 @@ body{background-image: linear-gradient(to bottom, #5F2C82, #4D9099);}
             height: 100%;}
 }
 
+
+
 @media screen and (min-width:992px)  {
     
 body{background-image: linear-gradient(to bottom, #5F2C82, #4D9099);}
 
-#login{width: 70vw;}
+#login{width: 70vw;
+        height: 430px;}
 
 #img{float: right;
     width: 50%;
@@ -29,4 +33,15 @@ body{background-image: linear-gradient(to bottom, #5F2C82, #4D9099);}
             width: 50%;
             height: 100%;
             }
+
+ #formulario>h1{font-size: 2em;}
+
+ #formulario>p{font-size: 1.2em;}
 }
+
+
+
+
+
+
+
